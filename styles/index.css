@@ -1,0 +1,205 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-color: black;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: auto;
+    max-width: 100vw;
+    max-height: 75vw;
+}
+
+.back {
+    position: relative;
+    margin: auto;
+    height: 20%;
+    width: 10%;
+    left: 69%;
+    top: 69%;
+}
+
+.start {
+    position: relative;
+    margin: auto;
+    height: 20%;
+    width: 10%;
+    left: 50%;
+    top: 60%;
+}
+
+/* menu items */
+.m1 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 24%;
+  width: 7vw;
+  height: 2vw;
+}
+
+.m2 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 28.8%;
+  width: 7vw;
+  height: 2vw;
+}
+
+.m3 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 34.3%;
+  width: 5.2vw;
+  height: 1.4vw;
+}
+
+.m4 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 38.8%;
+  width: 5vw;
+  height: 1.5vw;
+}
+
+.m5 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 43.2%;
+  width: 7vw;
+  height: 1.5vw;
+}
+
+.m6 {
+  position: fixed;
+  margin: auto;
+  left: 55%;
+  top: 47.5%;
+  width: 4vw;
+  height: 1.5vw;
+}
+
+/* pokemon page */
+.p1 {
+  position: fixed;
+  margin: auto;
+  width: 7vw;
+  left: 38%;
+  top: 23%;
+}
+
+.p2 {
+  position: fixed;
+  margin: auto;
+  width: 6vw;
+  left: 38%;
+  top: 31%;
+}
+
+.p3 {
+  position: fixed;
+  margin: auto;
+  width: 3vw;
+  left: 38%;
+  top: 39.5%;
+}
+
+.p4 {
+  position: fixed;
+  margin: auto;
+  width: 6vw;
+  left: 36%;
+  top: 47.85%;
+}
+
+.pokemon {
+  height: 2vw;
+}
+
+/* start */
+.pika {
+  position: fixed;
+  margin: auto;
+  height: 34vw;
+  width: 38vw;
+  left: 32%;
+  top: 18.5%;
+}
+
+/* vid */
+/* .vid {
+  display: block;
+  height: auto;
+  left: 32%;
+  position: absolute;
+  top: 17%;
+  width: 100%;
+} */
+
+/* .vid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.vid{
+	position:relative;
+	height: 60%;
+  width:35%;
+	overflow:hidden; 
+  left: 33%;
+  top: 0%;
+ 
+}
+
+.vid iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#bg1 {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin: auto;
+  max-width: 100vw;
+  max-height: 75vw;
+}
+
+.abutton {
+  position: relative;
+  z-index: 0
+  margin: auto;
+  height: 20%;
+  width: 10%;
+  left: 69%;
+  top: 69%;
+}
